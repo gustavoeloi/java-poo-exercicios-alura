@@ -1,0 +1,11 @@
+
+public class novoTeste {
+
+	public static void main(String[] args) {
+		Gerente g1 = new Gerente();
+		g1.setNome("Gustavo Henrique");
+		g1.setCpf("033.335.278-99");
+
+	}
+
+}

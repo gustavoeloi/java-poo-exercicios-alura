@@ -1,0 +1,10 @@
+
+public class FuncionarioTeste1 {
+	public static void main(String[] args) {
+		FuncionarioTeste f1 = new FuncionarioTeste();
+		f1.setNome("Rodrigues da Silva");
+		f1.setCpf("000.005.008-55");
+		f1.setSalario(2500.00);
+		f1.setTipo(0);
+	}
+}

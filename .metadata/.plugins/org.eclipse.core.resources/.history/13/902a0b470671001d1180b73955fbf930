@@ -1,0 +1,16 @@
+
+public class ContaCorrente extends Conta {
+	
+	public ContaCorrente(int agencia, int numero){
+		super(agencia, numero);
+	}
+	
+	public boolean saca(double valor) {
+		if(super.getSaldo() >= valor) {
+			super.getSaldo() -= valor;
+			return true;
+		} else {
+			return false;
+		}
+	}
+}

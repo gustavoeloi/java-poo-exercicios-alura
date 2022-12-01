@@ -1,0 +1,6 @@
+
+public class Designer {
+	public double getBonificacao() {
+		return super.getSalario() + 200;
+	}
+}

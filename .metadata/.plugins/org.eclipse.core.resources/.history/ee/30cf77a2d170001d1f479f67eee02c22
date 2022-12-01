@@ -1,0 +1,27 @@
+
+public class TesteBonificacao {
+
+	public static void main(String[] args) {
+		
+		Funcionario f1 = new Funcionario();
+		f1.setNome("Gustavo Henrique");
+		f1.setSalario(2500);
+		
+		System.out.println(f1.getBonificacao());
+		
+		Gerente g1 = new Gerente();
+		g1.setNome("Gabriel Rodrigues");
+		g1.setSalario(2500);
+		
+		System.out.println(g1.getBonificacao());
+		
+		EditorVideo ev = new EditorVideo();
+		ev.setNome("Kauã Morais");
+		ev.setSalario(2500);
+		
+		System.out.println(ev.getBonificacao());
+		
+		
+	}
+
+}
